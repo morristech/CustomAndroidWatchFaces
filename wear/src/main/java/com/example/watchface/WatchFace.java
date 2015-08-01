@@ -13,8 +13,8 @@ import java.util.Calendar;
  */
 public class WatchFace {
     // 1
-    private static final String TIME_FORMAT = "%d:%d";
-    private static final String DATE_FORMAT = "%d.%d.%d";
+    private static final String TIME_FORMAT = "%02d:%02d";
+    private static final String DATE_FORMAT = "%02d.%02d.%d";
     private final Paint datePaint;
     private final Paint timePaint;
     private final int backgroundColor;
